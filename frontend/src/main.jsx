@@ -18,28 +18,8 @@ import { UserAccount } from "./components/UserAcoount/UserAccount.jsx";
 import { ShowAllProduct } from "./components/Products/ShowAllProduct.jsx";
 import { UserDetail } from "./components/UserAcoount/UserDetail.jsx";
 import { ManageAddress } from "./components/UserAcoount/ManageAddress.jsx";
-import Redis from "./components/UserAcoount/Redis.jsx";
-// import { ShowAllProduct } from "./components/Products/ShowAllProduct.jsx";
-// const router = createBrowserRouter([
-//   {
-//     path: '/',
-//     element: <Layout/>,
-//     children: [
-//       {
-//         path: "",
-//         element: <Home />
-//       },
-//       {
-//         path: "about",
-//         element: <About />
-//       },
-//       {
-//         path: "contact",
-//         element: <Contact />
-//       }
-//     ]
-//   }
-// ])
+//import Redis from "./components/UserAcoount/Redis.jsx";
+
 
 const router = createBrowserRouter(
   createRoutesFromElements(
