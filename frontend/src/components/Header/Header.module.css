@@ -1,0 +1,131 @@
+.Headerbox{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgb(51, 51, 153);
+    color: white;
+}
+.Cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    color: white;
+    text-decoration: none;
+}
+.Logo{
+    font-weight: 900;
+    font-size: 22px;
+    color: rgb(251, 255, 38);
+    text-decoration: none;
+}
+.Input{
+    width: 30%;
+    height: 46%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    border:2px solid black;
+    color: black;
+}
+.input{
+    width: 95%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    outline: none;
+    border: none; /* Optionally remove border as well */
+    /* text-align:left; */
+}
+.seller{
+    width: 60%;
+    font-size: 15px;
+}
+.icon{
+    width: 5%;
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: flex-start; */
+    font-size: 15px;
+}
+
+.Login{
+    display: flex;
+    background-color: #5353c6;
+    width: 80px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    height: 35px;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ .Cartinside{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.length{
+    margin-bottom: 13px;
+    margin-left: 15px;
+    border-radius: 50%;
+    background: #fa0303;
+    font-size:12px ;
+    width: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .menu{
+    position: absolute;
+    width: 230px ;
+    height: 290px;
+    margin: 10px;
+    background-color: rgb(230, 230, 230);
+    /* position: absolute; */
+    top: 35px;
+    left: 53%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: none;
+    color: black;
+  }
+  .div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1px;
+    background-color: white;
+    width: 100%;
+    height: 47px;
+  }
+  .div1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1px;
+    background-color: white;
+    width: 100%;
+    height: 47px;
+    padding: 5px;
+  }
+  .icon{
+    padding: 14px;
+  }
+  .iconName{
+     font-size: 19px;
+     padding-left: 14px;
+  }
+  .signIn{
+    color: rgb(76, 76, 255);
+  }
+  .Login:hover + .menu, .menu:hover{
+    display: block;
+}

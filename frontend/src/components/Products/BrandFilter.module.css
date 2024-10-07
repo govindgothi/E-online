@@ -1,0 +1,42 @@
+/* Styling for the brand filter box */
+.brand_filter {
+    width: 250px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 6px;
+  }
+  
+  .brand_filter_title {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .brand_filter_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .brand_filter_item {
+    margin-bottom: 10px;
+  }
+  
+  .brand_checkbox {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .brand_label {
+    font-size: 16px;
+    color: #555;
+    cursor: pointer;
+  }
+  .brand_filter_item:hover .brand_label {
+    color: #000;
+  }
+  

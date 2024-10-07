@@ -1,0 +1,41 @@
+.product_card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    margin: 20px auto;
+  }
+  
+  .product_card:hover {
+    transform: scale(1.05);
+  }
+  
+  .product_image {
+    width: 180px;
+    height: 220px;
+    object-fit: cover;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  
+  .product_info {
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .product_name {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .discount_percentage {
+    font-size: 16px;
+    color: #ff5722;
+    margin-top: 8px;
+    font-weight: bold;
+  }
+  

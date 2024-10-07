@@ -1,0 +1,62 @@
+.SignUp_Container{
+  padding-left: 30px;
+  padding-bottom: 20px;
+  width: 460px;
+  border: 2px solid black;
+  color: white;
+  background-color: hsl(226, 69%, 28%);
+  border-radius: 8px;
+  margin-left: 33%;
+  margin-bottom: 10px;
+  opacity: 1;
+  margin-top: 2px;
+}
+.Heading{
+  margin-top: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding-right: 30px;
+ color: yellow;
+ font-size: 27px;
+}
+.InputDiv{
+  margin-top: 10px;
+  /* width: 380px; */
+}
+.Input_Container{
+  width: 380px;
+  height: 35px;
+  border-radius: 4px;
+  padding-left: 10px;
+  border: none;
+}
+.Label{
+  font-size: 25px;
+  margin-bottom: 3px;
+  padding-left: 4px;
+}
+.button{
+  background-color: #efff0f;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 6px;
+  margin-top: 19px;
+  color: black;
+  font-size: 18px;
+  padding: 5px;
+}
+.SubmitArea{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 40px;
+}
+.error{
+  padding-top: 4px;
+  padding-left: 7px;
+  /* display: none; */
+  color: red;
+}

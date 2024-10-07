@@ -1,0 +1,30 @@
+.PurchaseBag{
+    padding-top: 20px;
+    height: 600px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    background: #eef0f1;
+    overflow: scroll;
+}
+.productContainer{
+    width: 60%;
+    height: 100%;
+    /* border: 2px solid red; */
+    overflow: scroll;
+    /* background-color: aliceblue; */
+    padding-left: 15px;
+}
+.productContainer::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge, and Opera */
+  }
+  .PlaceOrderButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 6px;
+    margin-left: 44%;
+  }

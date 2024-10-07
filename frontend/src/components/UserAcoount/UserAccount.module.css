@@ -1,0 +1,143 @@
+.UserAccountBox{
+    width: 100%;
+    /* height: 660px; */
+    /* border: 2px solid black; */
+    background-color: rgb(224, 224, 224);
+    display: flex;
+}
+.RightBox{
+    width: 350px;
+    /* height: 650px; */
+    margin: 13px;
+    background-color: rgb(224, 224, 224);
+    /* border: 2px solid black; */
+}
+.UsernameDiv{
+    background-color: white;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+.Name{
+    font-weight: 600;
+}
+.UserDetail{
+    background-color: white;
+    width: 100%;
+    /* height: 500px; */
+    margin-top: 13px;
+}
+.LeftBox{
+    background-color: white;
+    width: 955px;
+    height: 625px;
+    margin-top: 13px;
+}
+.UserProfile{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.Profile{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.UserName{
+    margin-left: 15px;
+}
+.UserOrder{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+.WalletOrderIcon{
+    padding-left: 10px;
+    font-size: 24px;
+}
+.Order{
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+.RightArrow{
+    padding-left: 40%;
+}
+.Account{
+    border-top: 1px solid black;
+    width: 100%;
+    /* height: 140px; */
+    display: flex;
+    padding-bottom: 20px;
+}
+.AccountIcon{
+    width: 15%;
+    padding: 10px;
+    font-size: 25px;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.AccountFunction{
+    padding-left: 2px;
+}
+.HeadAccount{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    /* background-color: aqua; */
+}
+.MenuAccount{
+    padding-top: 14px;
+    font-weight: 500;
+    color: rgb(33, 55, 73);
+    /* background-color: yellow; */
+}
+.Pyment{
+    border-top: 1px solid black;
+    width: 100%; 
+    /* height: 140px;   */
+    display: flex;
+    padding-bottom: 20px;
+}
+.PymentIcon{
+    width: 15%;
+    padding: 10px;
+    font-size: 25px;
+    height: 100%;
+}
+.Stuff{
+    display: flex;
+    border-top: 1px solid black;
+    width: 100%; 
+    padding-bottom: 20px;
+}
+.StuffIcon{
+    width: 15%;
+    padding: 10px;
+    font-size: 25px;
+    height: 100%;
+}
+.UserLogOut{
+    display:  flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid black;
+}
+.PowerIconLogout{
+    padding-left: 10px;
+    font-size: 20px;
+    padding-top: 18px;
+}
+.Logout{
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    height: 40px;
+    padding-top: 18px;
+}
